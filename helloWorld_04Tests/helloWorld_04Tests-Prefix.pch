@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'helloWorld_04Tests' target in the 'helloWorld_04Tests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
