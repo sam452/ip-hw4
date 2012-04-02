@@ -22,6 +22,9 @@
 		22184898152645E500402654 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22184896152645E500402654 /* InfoPlist.strings */; };
 		2218489B152645E500402654 /* helloWorld_04Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 2218489A152645E500402654 /* helloWorld_04Tests.h */; };
 		2218489D152645E500402654 /* helloWorld_04Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218489C152645E500402654 /* helloWorld_04Tests.m */; };
+		221848A91526462A00402654 /* STAIR.png in Resources */ = {isa = PBXBuildFile; fileRef = 221848A61526462A00402654 /* STAIR.png */; };
+		221848AA1526462A00402654 /* kantStair.png in Resources */ = {isa = PBXBuildFile; fileRef = 221848A71526462A00402654 /* kantStair.png */; };
+		221848AB1526462A00402654 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 221848A81526462A00402654 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +42,25 @@
 		2218486D152645E500402654 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2218486F152645E500402654 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22184871152645E500402654 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		22184875152645E500402654 /* helloWorld_04-Info.plist */ = {isa = PBXFileReference; path = "helloWorld_04-Info.plist"; sourceTree = "<group>"; };
+		22184875152645E500402654 /* helloWorld_04-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helloWorld_04-Info.plist"; sourceTree = "<group>"; };
 		22184877152645E500402654 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		22184879152645E500402654 /* helloWorld_04-Prefix.pch */ = {isa = PBXFileReference; path = "helloWorld_04-Prefix.pch"; sourceTree = "<group>"; };
+		22184879152645E500402654 /* helloWorld_04-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloWorld_04-Prefix.pch"; sourceTree = "<group>"; };
 		2218487A152645E500402654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2218487C152645E500402654 /* helloWorld_04AppDelegate.h */ = {isa = PBXFileReference; path = helloWorld_04AppDelegate.h; sourceTree = "<group>"; };
+		2218487C152645E500402654 /* helloWorld_04AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloWorld_04AppDelegate.h; sourceTree = "<group>"; };
 		2218487D152645E500402654 /* helloWorld_04AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloWorld_04AppDelegate.m; sourceTree = "<group>"; };
 		22184880152645E500402654 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		22184882152645E500402654 /* helloWorld_04ViewController.h */ = {isa = PBXFileReference; path = helloWorld_04ViewController.h; sourceTree = "<group>"; };
+		22184882152645E500402654 /* helloWorld_04ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloWorld_04ViewController.h; sourceTree = "<group>"; };
 		22184883152645E500402654 /* helloWorld_04ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloWorld_04ViewController.m; sourceTree = "<group>"; };
 		22184886152645E500402654 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/helloWorld_04ViewController.xib; sourceTree = "<group>"; };
 		2218488D152645E500402654 /* helloWorld_04Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloWorld_04Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22184895152645E500402654 /* helloWorld_04Tests-Info.plist */ = {isa = PBXFileReference; path = "helloWorld_04Tests-Info.plist"; sourceTree = "<group>"; };
+		22184895152645E500402654 /* helloWorld_04Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helloWorld_04Tests-Info.plist"; sourceTree = "<group>"; };
 		22184897152645E500402654 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		22184899152645E500402654 /* helloWorld_04Tests-Prefix.pch */ = {isa = PBXFileReference; path = "helloWorld_04Tests-Prefix.pch"; sourceTree = "<group>"; };
+		22184899152645E500402654 /* helloWorld_04Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloWorld_04Tests-Prefix.pch"; sourceTree = "<group>"; };
 		2218489A152645E500402654 /* helloWorld_04Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloWorld_04Tests.h; sourceTree = "<group>"; };
 		2218489C152645E500402654 /* helloWorld_04Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloWorld_04Tests.m; sourceTree = "<group>"; };
+		221848A61526462A00402654 /* STAIR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = STAIR.png; sourceTree = "<group>"; };
+		221848A71526462A00402654 /* kantStair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kantStair.png; sourceTree = "<group>"; };
+		221848A81526462A00402654 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,9 @@
 		22184874152645E500402654 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				221848A61526462A00402654 /* STAIR.png */,
+				221848A71526462A00402654 /* kantStair.png */,
+				221848A81526462A00402654 /* icon.png */,
 				22184875152645E500402654 /* helloWorld_04-Info.plist */,
 				22184876152645E500402654 /* InfoPlist.strings */,
 				22184879152645E500402654 /* helloWorld_04-Prefix.pch */,
@@ -225,6 +234,9 @@
 				22184878152645E500402654 /* InfoPlist.strings in Resources */,
 				22184881152645E500402654 /* MainWindow.xib in Resources */,
 				22184887152645E500402654 /* helloWorld_04ViewController.xib in Resources */,
+				221848A91526462A00402654 /* STAIR.png in Resources */,
+				221848AA1526462A00402654 /* kantStair.png in Resources */,
+				221848AB1526462A00402654 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

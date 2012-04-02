@@ -9,9 +9,12 @@
 #import "helloWorld_04ViewController.h"
 
 @implementation helloWorld_04ViewController
+@synthesize label, Kant;
 
 - (void)dealloc
 {
+    [label release];
+    [Kant release];
     [super dealloc];
 }
 
@@ -25,16 +28,13 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-*/
 
 - (void)viewDidUnload
 {
+    [label release];
+    label = nil;
+    [Kant release];
+    Kant = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -46,4 +46,9 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)button:(id)sender {
+    label.text = @"Hell, jars I'm back";
+    UIImage *imageSource = [UIImage imageNamed:@"kantStair.png"];
+    Kant.image = imageSource;
+}
 @end

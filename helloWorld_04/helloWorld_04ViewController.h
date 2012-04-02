@@ -10,6 +10,11 @@
 
 @interface helloWorld_04ViewController : UIViewController {
     
+    IBOutlet UILabel *label;
+    IBOutlet UIImageView *Kant;
 }
+@property (nonatomic, retain) IBOutlet UILabel *label;
+@property (nonatomic, retain) IBOutlet UIImageView *Kant;
+- (IBAction)button:(id)sender;
 
 @end
